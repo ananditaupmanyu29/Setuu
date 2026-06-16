@@ -6,7 +6,7 @@ function Navbar() {
         <div className="logo">
 
           <img
-            src="/Logo.png"
+            src="./Logo.png"
             alt="logo"
             className="company-logo"
           />
