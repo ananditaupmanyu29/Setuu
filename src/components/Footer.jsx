@@ -16,7 +16,7 @@ function Footer() {
           <div className="footer-logo">
 
             <img
-            src="/Logo.png"
+            src={`${import.meta.env.BASE_URL}Logo.png`}
             alt="logo"
             className="company-logo"
             />
