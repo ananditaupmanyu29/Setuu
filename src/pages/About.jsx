@@ -3,11 +3,11 @@ import { useEffect, useState } from "react"
 function About() {
 
   const images = [
-    "/Day.avif",
-    "/Night.jpg",
-    "/Sun.jpg",
-    "/Night.avif"
-  ]
+  `${import.meta.env.BASE_URL}Day.avif`,
+  `${import.meta.env.BASE_URL}Night.jpg`,
+  `${import.meta.env.BASE_URL}Sun.jpg`,
+  `${import.meta.env.BASE_URL}Night.avif`
+]
 
   const [currentImage, setCurrentImage] = useState(0)
 

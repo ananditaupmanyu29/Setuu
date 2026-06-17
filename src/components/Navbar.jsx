@@ -1,25 +1,20 @@
-import { Link } from "react-router-dom"
+import { Link } from "react-router-dom";
+
 function Navbar() {
   return (
     <header>
       <nav className="navbar">
         <div className="logo">
-
           <img
-            src="./Logo.png"
+            src={`${import.meta.env.BASE_URL}Logo.png`}
             alt="logo"
             className="company-logo"
           />
-
         </div>
 
         <ul className="nav-links">
-
           <li>
-            <Link
-              className="active"
-              to="/"
-            >
+            <Link className="active" to="/">
               Home
             </Link>
           </li>
@@ -43,11 +38,9 @@ function Navbar() {
           </li>
 
           <li className="dropdown">
-
             <a href="#services">
               Services <span>▼</span>
             </a>
-
           </li>
 
           <li>
@@ -73,11 +66,9 @@ function Navbar() {
               Property Enquiry
             </a>
           </li>
-
         </ul>
 
         <div className="nav-buttons">
-
           <button className="login-btn">
             <span>➜</span> Login
           </button>
@@ -85,11 +76,10 @@ function Navbar() {
           <button className="theme-btn">
             ☀
           </button>
-
         </div>
       </nav>
     </header>
-  )
+  );
 }
 
-export default Navbar
+export default Navbar;

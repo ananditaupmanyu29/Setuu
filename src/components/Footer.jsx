@@ -16,8 +16,10 @@ function Footer() {
           <div className="footer-logo">
 
             <img
-              src="/Logo.png"
-              alt="logo"/>
+            src="/Logo.png"
+            alt="logo"
+            className="company-logo"
+            />
 
             <div>
               <h2>Setuu</h2>
